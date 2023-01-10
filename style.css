@@ -94,6 +94,7 @@ body {
   width: 40%;
   position: relative;
 }
+
 .vsc {
   position: absolute;
   width: 70%;
@@ -123,7 +124,7 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10%;
+  margin-bottom: 30%;
 }
 .learning > .title {
   margin-bottom: 10px;
@@ -162,8 +163,12 @@ body {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10%;
+  margin-bottom: 30%;
   width: 100%;
+}
+
+.projects .title {
+  margin-bottom: 10%;
 }
 .git {
   margin-top: 10px;
@@ -189,7 +194,7 @@ body {
 
 .hiw {
   text-align: center;
-  margin-bottom: 10%;
+  margin-bottom: 30%;
 }
 
 .projects .git:hover {
@@ -209,7 +214,7 @@ body {
 }
 
 .hiw-section div p {
-  color: var(--purple-dark);
+  color: var(--purple);
 }
 
 .hiw hr {
@@ -406,7 +411,6 @@ body {
     transform: translateY(-5%) rotate(-5deg);
   }
 }
-
 @keyframes float {
   0% {
     transform: translateY(-5%);
@@ -470,8 +474,46 @@ body {
     flex-direction: column;
     place-items: center;
   }
+  #projects {
+    height: 60vh;
+  }
+  body > div {
+    width: 100%;
+  }
+  p,
+  span {
+    font-size: large;
+  }
+  h1,
+  h2 {
+    font-size: xx-large;
+    font-weight: 900;
+  }
+  .hiw-image {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1920px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  }
 
   body > div {
-    width: 1000px;
+    width: 1920px;
+  }
+  p,
+  span {
+    font-size: x-large !important;
+  }
+  h1,
+  h2 {
+    font-size: xxx-large !important;
+    font-weight: 900;
+  }
+  .hiw-image {
+    width: 50%;
   }
 }
