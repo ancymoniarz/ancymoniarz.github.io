@@ -265,23 +265,27 @@ body {
 
 #projects {
   aspect-ratio: 16 / 9;
-  height: 30vh;
+  width: 100%;
   background-color: var(--gray-dark);
-  border-radius: 10px;
-  border-color: #ffffff00;
+  border-radius: 9px;
   margin-top: 10px;
   cursor: pointer;
   -webkit-box-shadow: 0px 0px 15px 0px var(--purple-dark);
   -moz-box-shadow: 0px 0px 15px 0px var(--purple-dark);
   box-shadow: 0px 0px 15px 0px var(--purple-dark);
-  border: 5px solid #230a5b;
+  outline: 5px solid #230a5b;
+  outline-offset: -5px;
 }
 .swiper > a {
   font-size: 0;
 }
 
 .swiper {
+  aspect-ratio: 16 / 9;
   position: relative;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .projects > h2 {
@@ -295,6 +299,7 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
+
   opacity: 0;
   background-color: #230a5b;
   color: var(--purple);
@@ -484,7 +489,7 @@ body {
   span {
     font-size: large;
   }
-  
+
   h1,
   h2 {
     font-size: xx-large;
@@ -517,4 +522,7 @@ body {
   .hiw-image {
     width: 50%;
   }
+}
+
+@media (max-width: 796) {
 }
