@@ -10,6 +10,7 @@ setTimeout(() => {
 
   function incrementCounter() {
     counter++;
+    loadingBar(counter, len);
     if (counter === len) {
       let a = document.querySelector("#loading-screen");
       a.classList.add("loaded");
@@ -17,3 +18,9 @@ setTimeout(() => {
     }
   }
 }, 1);
+
+function loadingBar(completed, max) {
+  let percent = parseInt((completed / max) * 100);
+  let loadBar = document.querySelector("#loading-bar > div");
+  loadBar.style.width = percent + "%";
+}

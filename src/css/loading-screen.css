@@ -10,6 +10,7 @@
   justify-content: center;
   align-items: center;
   transition: all 1s;
+  flex-direction: column;
 }
 .loader {
   border: 16px solid #202020;
@@ -22,6 +23,22 @@
 }
 .loaded {
   opacity: -1 !important;
+}
+#loading-bar {
+  margin-top: 20px;
+  width: 140px;
+  height: 10px;
+  background-color: #202020;
+  position: relative;
+  z-index: 21;
+}
+#loading-bar > div {
+  width: 0;
+  height: 100%;
+  background-color: #952655;
+  position: relative;
+  z-index: 22;
+  transition: all 0.2s;
 }
 @-webkit-keyframes spin {
   0% {
