@@ -21,7 +21,11 @@ function reveal() {
       elementTop + elementHeight - windowHeight * percent2 >= 0
     ) {
       r.style.opacity = "1";
-      if (innerWidth <= 900 && r.getAttribute("id") === "project-title")
+      if (
+        (innerWidth <= 900 && r.getAttribute("id") === "project-title") ||
+        (innerWidth <= 600 &&
+          r.getAttribute("class") === "font-shrinkhand ab-hello reveal")
+      )
         r.style.transform = "translateY(0) translateX(50%)";
       else if (
         r.getAttribute("class") === "previous-button control-button reveal"
