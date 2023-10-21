@@ -1,0 +1,350 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+  scroll-behavior: smooth;
+  transition: all 0.3s;
+}
+a {
+  text-decoration: none;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0f0d14;
+}
+::-webkit-scrollbar-thumb {
+  background: #952655;
+}
+.font-shrinkhand {
+  font-family: "Shrikhand", serif;
+}
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+.font-barcode {
+  font-family: "Libre Barcode 39", sans-serif;
+}
+#welcome {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../src/img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  position: relative;
+}
+.title {
+  position: relative;
+  width: 63.6%;
+}
+#welcome > div {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.text-webdev {
+  margin-top: 1rem;
+  width: 59%;
+}
+.text-underwebdev {
+  font-size: 20px;
+}
+br {
+  height: 3px;
+}
+#welcome > div > div > p:nth-child(2) {
+  position: relative;
+  bottom: 10px;
+}
+#welcome > div > div > p:nth-child(3) {
+  position: relative;
+  bottom: 20px;
+}
+.title-undertext {
+  display: flex;
+  width: 59%;
+  position: relative;
+  top: 10px;
+  justify-content: space-between;
+}
+.thinstar {
+  height: 90px;
+}
+.bar-ancymon {
+  font-size: 150px;
+}
+#aboutme {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../src/img/background-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+}
+.ab-hello {
+  font-size: 170px;
+  position: relative;
+  right: 90px;
+}
+#photo {
+  width: 400px;
+  aspect-ratio: 359.6/479.7;
+}
+.photo {
+  transform: rotate(-4.5deg);
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  z-index: 3;
+}
+.xxxx {
+  aspect-ratio: 41/216.6;
+  width: 41px;
+  margin-right: 10px;
+}
+.dotted-rect {
+  transform: rotate(4.5deg) !important;
+  aspect-ratio: 171.5/124.3;
+  height: 124px;
+  position: absolute;
+  bottom: -40px;
+  margin-left: -100px;
+}
+.text-ab {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  z-index: 2;
+  margin-left: 2rem;
+}
+.text-ab p {
+  font-weight: 300;
+}
+.text-ab > p:nth-child(3) {
+  margin-left: 6rem;
+  position: relative;
+  bottom: 6px;
+}
+.text-ab > p:nth-child(4) {
+  margin-left: 14rem;
+}
+.text-ab > p:nth-child(2),
+.text-ab > p:nth-child(3),
+.text-ab > p:nth-child(4) {
+  position: relative;
+  bottom: 2.5rem;
+  padding: 10px 0 10px 0;
+}
+#projects {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  padding-bottom: 84px;
+  background-image: url("../img/background-3.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.frame {
+  position: relative;
+}
+.frame-shine {
+  position: absolute;
+  height: 160px;
+  aspect-ratio: 99.7/120.1;
+  top: -80px;
+  right: -65px;
+  z-index: 5;
+}
+.frame > div:nth-child(1) {
+  display: flex;
+  position: relative;
+}
+#frame {
+  aspect-ratio: 679/507.8;
+  height: 600px;
+  position: relative;
+  z-index: 4;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+.darken-frame {
+  background-color: #00000080;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+#projects > div > div:nth-child(1) > div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#project-title {
+  font-size: 2.6rem;
+}
+#project-description {
+  font-size: 16px;
+  position: relative;
+}
+#project-description,
+#project-title {
+  transition: all 0.3;
+}
+.control-button {
+  aspect-ratio: 1/1;
+  height: 45px;
+  z-index: 3;
+  position: relative;
+  cursor: pointer;
+}
+.control-button:hover,
+#project-view:hover {
+  transform: scale(1.3) !important;
+}
+.previous-button:hover {
+  transform: scale(1.3) rotate(180deg) !important;
+}
+.control-button:hover,
+.previous-button:hover {
+  transition: all 0.3s !important;
+}
+.previous-button {
+  transform: rotate(180deg);
+  margin-right: 30px;
+}
+.control-panel > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#project-img {
+  position: absolute;
+  width: 85%;
+  margin-right: 7.5%;
+  margin-left: 7.5%;
+  margin-top: 7%;
+  margin-bottom: 9.8%;
+  height: 82.2%;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+.switch-hidden {
+  transform: translateX(20px);
+  opacity: 0;
+}
+#view-container {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 100%;
+  right: 0;
+  background-color: #000000;
+  border: 0;
+  z-index: 9;
+  margin: 0;
+  transition: all 1s;
+}
+#view-close {
+  width: 45px;
+  position: fixed;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+  top: -100px;
+  right: 0;
+  margin-right: 20px;
+  margin-top: 20px;
+  z-index: 20;
+  opacity: 0.2;
+}
+#view-close:hover {
+  opacity: 1;
+}
+.open-link-button {
+  aspect-ratio: 1/1;
+  width: 45px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.pr-title {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.open-link-button:hover {
+  transform: scale(1.3);
+}
+#contact {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  margin: 0 0 10px 0;
+  width: 50%;
+  justify-content: space-between;
+}
+#contact > p {
+  position: relative;
+  background-color: #fff;
+  color: #000;
+  padding-right: 5px;
+}
+#contact > p::before {
+  content: "";
+  display: block;
+  aspect-ratio: 1/1;
+  height: 100%;
+  position: absolute;
+  right: 100%;
+}
+#contact > p[icon~="discord"]::before {
+  background-image: url("../../src/img/icon-discord.svg");
+}
+#contact > p[icon~="instagram"]::before {
+  background-image: url("../../src/img/icon-instagram.svg");
+}
+#contact > p[icon~="mail"]::before {
+  background-image: url("../../src/img/icon-mail.svg");
+}
+#contact > p::after {
+  content: "";
+  display: block;
+  aspect-ratio: 1/1;
+  height: 100%;
+  position: absolute;
+  left: 100%;
+  bottom: 0;
+  background-color: #fff;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.reveal {
+  opacity: 0;
+  transform: translateY(20px) translateX(20px);
+  transition: all 0.8s !important;
+}
+
+section {
+  overflow: hidden;
+}

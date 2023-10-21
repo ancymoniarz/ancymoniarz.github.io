@@ -1,0 +1,68 @@
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+nav > div {
+  margin: 10px 0 0 0;
+  background-color: #00000000;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 5px 0 0 0;
+  padding: 5px 5px 7.5px 5px;
+  display: flex;
+  align-items: center;
+}
+nav p {
+  color: white;
+  font-size: 20px;
+  margin: 5px 25px 0 25px;
+  cursor: pointer;
+}
+.chunky-star {
+  aspect-ratio: 1/1;
+  height: 20px;
+  margin: 6px 0 0 0;
+}
+.scrollbar-background > div {
+  background-color: #0000008e;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+@media screen and (max-width: 750px) {
+  nav > div > p {
+    font-size: 16px;
+  }
+  .chunky-star {
+    height: 16px;
+    margin: 6px 0 0 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  nav > div > p {
+    font-size: 12px;
+  }
+  .chunky-star {
+    height: 12px;
+  }
+}
+@media screen and (max-width: 450px) {
+  nav > div > p {
+    font-size: 10px;
+  }
+  .chunky-star {
+    height: 10px;
+    margin: 5px 0 0 0;
+  }
+  nav > div > p:nth-child(7),
+  nav > div > img:nth-child(6) {
+    height: 0;
+    font-size: 0;
+    width: 0;
+    margin: 0;
+  }
+}

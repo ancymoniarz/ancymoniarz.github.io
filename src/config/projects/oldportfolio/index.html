@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./src/css/animations.css" />
+    <link rel="stylesheet" href="./src/css/basic.css" />
+    <link rel="stylesheet" href="./src/css/loading.css" />
+    <link rel="stylesheet" href="./src/css/media.css" />
+    <script src="./src/js/main.js" defer></script>
+    <script src="./src/js/functions/reveal.js" defer></script>
+    <script src="./src/js/functions/copy.js" defer></script>
+    <script src="./src/js/project.js" defer></script>
+    <link
+      rel="shortcut icon"
+      href="./src/img/logo/logo.png"
+      type="image/x-icon"
+    />
+    <script src="src/js/newSite/newSite.js"></script>
+    <title>ancymon</title>
+  </head>
+  <body onload="getLocation()">
+    <section class="notification"></section>
+    <div class="transition"></div>
+
+    <section class="loading-screen">
+      <div class="loading-animation load-animation-container"></div>
+    </section>
+    <nav>
+      <img src="./src/img/logo/logo-long.png" alt="" class="ancymon-logo" />
+      <div class="links">
+        <a href="#aboutme" class="link aboutme">About Me</a>
+        <a href="#projects" class="link projects">Projects</a>
+        <a href="#skills" class="link skills">Skills</a>
+        <a href="#contact" class="link contact">Contact</a>
+      </div>
+    </nav>
+    <div class="shadow shadow-bottom"></div>
+    <div class="shadow shadow-top"></div>
+    <div class="maxdiv">
+      <section class="welcome-screen">
+        <div class="welc-text">
+          <h1 class="hi">Hi,</h1>
+          <h1 class="nazwa">ancymon</h1>
+          <h1>frontend developer</h1>
+          <p class="welc-comment qoute1">
+            The man who asks a question is a fool for a minute,
+          </p>
+          <p class="welc-comment qoute2">
+            the man who does not ask is a fool for life.
+          </p>
+        </div>
+
+        <div class="welc-anim">
+          <img src="./src/img/logo/logo.svg" alt="" class="logo-anim" />
+        </div>
+      </section>
+
+      <section id="aboutme">
+        <div class="profile">
+          <div class="pfp">
+            <div class="pfp-head reveal">
+              <img
+                src="./src/img/logo/spin/spin-a.svg"
+                class="pfp-head-a"
+                alt=""
+              />
+              <img
+                src="./src/img/logo/spin/spin-base.svg"
+                class="spintrick"
+                alt=""
+              />
+            </div>
+            <img
+              src="./src/img/logo/spin/spin-body.svg"
+              class="reveal"
+              alt=""
+            />
+          </div>
+          <div>
+            <h1 class="reveal">ancymon</h1>
+            <p class="am-age reveal">・14 years old</p>
+            <p class="am-bot reveal">・Discord bot developer since 2020</p>
+            <p class="am-fe reveal">・Frontend developer since 2022</p>
+          </div>
+        </div>
+      </section>
+      <section id="projects"></section>
+      <section id="skills">
+        <div class="relative">
+          <div class="reveal skill html" experience="100"></div>
+        </div>
+        <div class="relative">
+          <div class="reveal skill css" experience="100"></div>
+        </div>
+        <div class="relative">
+          <div class="reveal skill python" experience="95"></div>
+        </div>
+        <div class="relative">
+          <div class="reveal skill javascript" experience="90"></div>
+        </div>
+        <div class="relative">
+          <div class="reveal skill nodejs" experience="80"></div>
+        </div>
+        <div class="relative">
+          <div class="reveal skill react" experience="60"></div>
+        </div>
+      </section>
+      <section id="contact">
+        <div>
+          <p class="type reveal">Email</p>
+          <p onclick="copy('ancymon@ancymon.lol')" class="copy reveal">
+            ・ ancymon@ancymon.lol ・
+          </p>
+          <p class="type reveal">Discord</p>
+          <p onclick="copy('ancymon#1234')" class="copy reveal">
+            ・ ancymon#1234 ・
+          </p>
+        </div>
+        <img
+          src="./src/img/logo/spin/spin-a.svg"
+          class="c-logo reveal"
+          alt=""
+        />
+        <div>
+          <p class="type reveal">Instagram</p>
+          <p onclick="copy('kochamduszki')" class="copy reveal">
+            ・ kochamduszki ・
+          </p>
+          <p class="type reveal">GitHub</p>
+          <p onclick="copy('ancymoniarz')" class="copy reveal">
+            ・ ancymoniarz ・
+          </p>
+        </div>
+      </section>
+      <div class="copyright"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,391 @@
+body {
+  overflow: hidden;
+  background-color: var(--background);
+}
+
+.nazwa-en::before {
+  content: "I am ";
+  color: white;
+}
+
+.nazwa-pl::before {
+  content: "jestem ";
+  color: white;
+}
+
+.nazwa::after {
+  content: ",";
+  color: white;
+}
+
+.nazwa {
+  color: var(--purp);
+}
+
+.reveal {
+  opacity: 0;
+  position: relative;
+  top: 40px;
+}
+.active {
+  opacity: 1;
+  top: 0;
+}
+
+.welcome-screen {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.welc-text {
+  white-space: nowrap;
+}
+
+.welc-comment {
+  color: #444653;
+  font-style: italic;
+}
+
+.logo-anim {
+  aspect-ratio: 1/1;
+  width: 500px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h1,
+.welc-comment {
+  margin-left: 10%;
+}
+
+.qoute2::after {
+  content: "”";
+}
+.qoute1::before {
+  content: "“";
+}
+
+.shadow {
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  opacity: 1;
+  z-index: 2;
+}
+
+.shadow-bottom {
+  background-image: linear-gradient(#ffffff00, #000000cb);
+  bottom: 0;
+}
+
+.shadow-top {
+  background-image: linear-gradient(#000000, #ffffff00);
+  top: 45px;
+  opacity: 0;
+}
+
+nav {
+  background-color: var(--background);
+  padding: 10px 0 10px 0;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+h1,
+p,
+h2 {
+  cursor: default !important;
+}
+
+.ancymon-logo {
+  height: 25px;
+  margin-left: 5%;
+}
+
+.links {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+}
+
+.aboutme::before,
+.projects::before,
+.skills::before,
+.contact::before {
+  font-family: "Consolas", Courier, monospace;
+  color: var(--purp);
+}
+
+.aboutme::before {
+  content: "01 ";
+}
+.projects::before {
+  content: "02 ";
+}
+.skills::before {
+  content: "03 ";
+}
+.contact::before {
+  content: "04 ";
+}
+
+.notification {
+  padding: 15px 10px 15px 10px;
+  background-color: var(--background);
+  color: var(--purp);
+  border: var(--purp) solid 3px;
+  position: fixed;
+  z-index: 11;
+  border-radius: 15px;
+  width: 50%;
+  margin-left: 25%;
+  top: -50%;
+  opacity: 0;
+  transition: all 2s;
+}
+
+.notif-title,
+.notif-desc {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.notif-show {
+  top: 40px;
+  opacity: 1;
+}
+
+.notif-start {
+  border-radius: 100px;
+  animation: notif 3.5s linear;
+}
+
+.notif-duration {
+  height: 5px;
+  width: 100%;
+  background-color: var(--purp);
+}
+
+.notif-change-lang {
+  background-color: var(--purp);
+  color: var(--background);
+  padding: 5px 2px 5px 2px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.transition {
+  position: fixed;
+  display: flex;
+  width: 0;
+  height: 100vh;
+  right: 100%;
+  background-color: var(--purp);
+  z-index: 11;
+}
+.transition-play {
+  animation: transition 2s ease-in-out;
+}
+.maxdiv {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pfp {
+  aspect-ratio: 1/1;
+  width: 200px;
+  margin-left: 10px;
+}
+
+.pfp-head-a {
+  position: absolute;
+  width: 200px;
+  aspect-ratio: 1/1;
+  z-index: 1;
+}
+
+.spintrick {
+  animation: spintrick 10s infinite linear !important;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.profile div p {
+  margin-left: 10%;
+  font-size: 22px;
+  width: 100%;
+}
+
+#aboutme {
+  margin-bottom: 10%;
+}
+
+#projects {
+  height: 90vh;
+  width: 100%;
+}
+
+#skills {
+  margin-top: 10vh;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;
+}
+
+.skill,
+.skill:after {
+  height: 2rem;
+  border-radius: 360px;
+}
+.skill {
+  opacity: 1 !important;
+  width: 0;
+  position: static;
+  margin-bottom: 5vh;
+  background-image: linear-gradient(90deg, var(--purp), #ba66f1, var(--purp));
+  background-size: 400%;
+  -webkit-box-shadow: 0px 0px 31px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 0px 31px 0px rgba(66, 68, 90, 1);
+  box-shadow: 0px 0px 31px 0px rgba(66, 68, 90, 1);
+  animation: gradient1 5s infinite alternate;
+}
+
+.skill-anim {
+  transition: all 1.3s ease-in-out;
+}
+
+.skill::after {
+  content: "";
+  background-color: #0000004d;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+
+.html::before,
+.css::before,
+.python::before,
+.javascript::before,
+.nodejs::before,
+.react::before {
+  position: absolute;
+  bottom: 2.2rem;
+  margin-left: 0.2rem;
+  color: white;
+  z-index: 1;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.html::before {
+  content: "HTML";
+}
+.css::before {
+  content: "CSS";
+}
+.python::before {
+  content: "Python";
+}
+.javascript::before {
+  content: "JavaScript";
+}
+.nodejs::before {
+  content: "Node.js";
+}
+.react::before {
+  content: "React";
+}
+
+.relative {
+  position: relative;
+}
+
+#contact {
+  background-color: #0000004d;
+  height: 20vh;
+  width: 80%;
+  padding-right: 10%;
+  padding-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#contact div p {
+  color: #ffffff4d;
+}
+
+#contact div {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-logo {
+  aspect-ratio: 1/1;
+  height: 90%;
+}
+
+.copyright {
+  background-color: #0000004d;
+  text-align: center;
+  width: 100%;
+  color: #ffffff4d;
+  padding-top: 3vh;
+  padding-bottom: 2vh;
+}
+
+.type {
+  font-size: 18px;
+}
+.copy {
+  position: relative;
+  z-index: 1;
+  color: #ffffff4d;
+  border-radius: 5px;
+}
+.copy:hover {
+  cursor: pointer !important;
+  background-color: #ffffff4d;
+  color: #00000000 !important;
+}
+
+.copy::after {
+  content: "Click to copy";
+  font-weight: 400;
+  color: #0c0d11;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  z-index: -1;
+}

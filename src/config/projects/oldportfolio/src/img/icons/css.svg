@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="CSS" transform="matrix(1.11111,0,0,1.11111,-923.889,-561.111)">
+        <path d="M1001,505L842,505L856,667L921.5,685L987,667L1000.79,505.401L1001,505Z" style="fill:rgb(151,84,203);"/>
+        <g transform="matrix(0.9,0,0,0.9,176,-139.4)">
+            <path d="M882.651,753L773,753L775,774L860.615,774L858.015,797L776.303,797.18L779.299,819.027L855.455,819.002L852.95,847.744L828.333,855.082L803.333,848.181L802.037,830.949L780.624,830.514L782.768,864.591L828.333,877.501L873.701,864.655L881.651,774L882.651,753Z" style="fill:rgb(17,18,24);"/>
+        </g>
+        <g transform="matrix(0.241148,0,0,0.241148,700.451,362.584)">
+            <text x="786.619px" y="702.092px" style="font-family:'Poppins-Bold', 'Poppins';font-weight:700;font-size:131.217px;fill:rgb(17,18,24);">CSS</text>
+        </g>
+    </g>
+</svg>

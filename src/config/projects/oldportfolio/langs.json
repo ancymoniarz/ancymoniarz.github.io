@@ -1,0 +1,58 @@
+[
+  {
+    "lang": "pl",
+    "hi": "Witaj,",
+    "quote": [
+      "Człowiek, który zadaje pytanie, jest głupcem przez minutę,",
+      "człowiek, który nie pyta, jest głupcem na całe życie."
+    ],
+    "nav": [
+      {
+        "aboutme": "O mnie",
+        "projects": "Projekty",
+        "skills": "Doświadczenie",
+        "contact": "Kontakt"
+      }
+    ],
+    "notif": [
+      {
+        "title": "Language detection",
+        "description": "If you want to change language to english click button below.",
+        "button": "Change language"
+      }
+    ],
+    "aboutme": [
+      "・14 lat",
+      "・Developer botów Discord od 2020",
+      "・Frontend Web Developer od 2022"
+    ]
+  },
+  {
+    "lang": "en",
+    "hi": "Hi,",
+    "quote": [
+      "The man who asks a question is a fool for a minute,",
+      "the man who does not ask is a fool for life."
+    ],
+    "nav": [
+      {
+        "aboutme": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "contact": "Contact"
+      }
+    ],
+    "notif": [
+      {
+        "title": "Wykrywanie języka",
+        "description": "Jeśli chcesz zmienić język na polski, kliknij przycisk poniżej.",
+        "button": "Zmień język"
+      }
+    ],
+    "aboutme": [
+      "・14 years old",
+      "・Discord bot developer since 2020",
+      "・Frontend developer since 2022"
+    ]
+  }
+]

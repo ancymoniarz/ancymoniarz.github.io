@@ -1,0 +1,369 @@
+@media screen and (max-width: 1400px) {
+  #welcome > div > section > div {
+    font-size: 16px;
+  }
+  .bar-ancymon {
+    font-size: 130px;
+  }
+  .thinstar {
+    height: 75px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #welcome > div > section > div {
+    font-size: 15px;
+  }
+  .bar-ancymon {
+    font-size: 110px;
+  }
+  .thinstar {
+    height: 65px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  #welcome > div > section > div {
+    font-size: 18px;
+  }
+  .bar-ancymon {
+    font-size: 130px;
+  }
+  .thinstar {
+    height: 80px;
+  }
+  .xxxx {
+    width: 30px;
+  }
+  #photo {
+    width: 350px;
+  }
+  .ab-hello {
+    font-size: 150px;
+  }
+  .text-ab > p {
+    font-size: 16px;
+  }
+  .dotted-rect {
+    height: 100px;
+  }
+  .title {
+    width: 80%;
+  }
+  .text-webdev {
+    width: 76%;
+  }
+  .title-undertext {
+    width: 75%;
+  }
+  #contact {
+    flex-direction: column;
+    align-items: center;
+  }
+  #contact > p::after {
+    aspect-ratio: auto;
+    height: 100%;
+    width: 6px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  #contact > p {
+    margin-top: 3px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #photo {
+    width: 350px;
+  }
+  .xxxx {
+    width: 35px;
+  }
+  .ab-hello {
+    font-size: 140px;
+  }
+  .text-ab > p {
+    font-size: 17px;
+  }
+  .text-ab > p:nth-child(3) {
+    margin-left: 3rem;
+    bottom: 2.5rem;
+  }
+  .text-ab > p:nth-child(4) {
+    margin-left: 7rem;
+  }
+  .title {
+    width: 90%;
+  }
+  .text-webdev {
+    width: 86%;
+  }
+  .title-undertext {
+    width: 85%;
+  }
+  .dotted-rect {
+    height: 110px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .photo {
+    transform: rotate(0deg);
+  }
+  .dotted-rect {
+    transform: rotate(0deg) !important;
+  }
+  .xxxx {
+    width: 0;
+  }
+  .dotted-rect {
+    width: 0;
+  }
+  .ab-hello {
+    top: -60%;
+    right: 50%;
+    position: absolute;
+  }
+  .text-ab > p {
+    position: relative;
+    bottom: 0;
+    margin-left: 0 !important;
+    font-size: 16px;
+  }
+  #project-title {
+    font-size: 2.2rem;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+  }
+  .control-button,
+  #project-view {
+    height: 40px;
+  }
+  #project-description {
+    text-align: center;
+  }
+  .text-underwebdev {
+    font-size: 15px !important;
+  }
+  .thinstar {
+    height: 68px;
+  }
+  .bar-ancymon {
+    font-size: 110px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #frame {
+    height: auto;
+    width: 100%;
+  }
+  .text-underwebdev {
+    font-size: 14px !important;
+  }
+  .thinstar {
+    height: 62px;
+  }
+  .bar-ancymon {
+    font-size: 100px;
+  }
+}
+@media screen and (max-width: 700px) {
+  #project-description {
+    font-size: 14px;
+  }
+  #photo {
+    width: 300px;
+  }
+  .text-ab > p {
+    font-size: 14px;
+  }
+  .ab-hello {
+    font-size: 100px;
+    top: -50%;
+  }
+  .control-button,
+  #project-view {
+    height: 35px;
+  }
+  .text-underwebdev {
+    font-size: 12.5px !important;
+  }
+  .thinstar {
+    height: 50px;
+  }
+  .bar-ancymon {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #photo {
+    width: 250px;
+  }
+  .text-ab > p {
+    text-wrap: wrap;
+    padding: 4px 0 4px 0 !important;
+    font-size: 16px;
+  }
+  .text-ab {
+    margin: 0;
+    text-align: center;
+  }
+  #aboutme {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .ab-hello {
+    transform: translate(50%);
+    top: auto;
+    position: relative;
+    margin-bottom: 2px;
+  }
+  .control-button,
+  #project-view {
+    height: 25px;
+    position: absolute;
+  }
+  #project-title {
+    position: relative;
+    width: 100vw;
+    text-align: center;
+  }
+  #project-view {
+    left: 2px;
+    height: 60px;
+    top: -100%;
+  }
+  .control-button {
+    right: 0;
+    height: 40px;
+    top: -80%;
+  }
+  .control-panel > div {
+    position: relative;
+  }
+  .previous-button {
+    margin: 0;
+    margin-right: 60px;
+  }
+  .control-button,
+  #project-view {
+    z-index: 6;
+  }
+}
+@media screen and (max-width: 560px) {
+  .text-underwebdev {
+    font-size: 10px !important;
+  }
+  .thinstar {
+    height: 47px;
+  }
+  .bar-ancymon {
+    font-size: 75px;
+  }
+  .text-ab > p {
+    font-size: 13px;
+  }
+  .ab-hello {
+    font-size: 80px;
+    position: relative;
+    top: -10px;
+  }
+  .frame-shine {
+    height: 100px;
+    top: -50px;
+    right: -40px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .text-underwebdev {
+    font-size: 9px !important;
+  }
+  .thinstar {
+    height: 40px;
+  }
+  .bar-ancymon {
+    font-size: 65px;
+  }
+  .text-ab > p {
+    font-size: 15px;
+  }
+  #project-description {
+    font-size: 12px;
+  }
+  #contact p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .text-underwebdev {
+    font-size: 7px !important;
+  }
+  .thinstar {
+    height: 32px;
+  }
+  .bar-ancymon {
+    font-size: 50px;
+  }
+  #project-title {
+    font-size: 1.9rem;
+  }
+  #project-description {
+    font-size: 10px;
+  }
+  .control-button,
+  #project-view {
+    height: 30px;
+    top: -70%;
+  }
+  .text-ab > p {
+    font-size: 12px;
+  }
+  #contact > p {
+    font-size: 10px;
+  }
+  .frame-shine {
+    height: 75px;
+    top: -37.5px;
+    right: -30px;
+  }
+}
+@media screen and (max-width: 350px) {
+  #project-description {
+    font-size: 8px;
+  }
+  #project-title {
+    font-size: 1.7rem;
+  }
+  .control-button,
+  #project-view {
+    height: 20px;
+    top: -55%;
+  }
+  .previous-button {
+    margin: 0 42.5px 0 0;
+  }
+  .control-buttons > img:nth-child(2) {
+    margin-right: 12.5px;
+  }
+  #photo {
+    width: 50%;
+  }
+  .photo {
+    display: flex;
+    justify-content: center;
+  }
+  .text-ab > p {
+    font-size: 10px;
+  }
+  .text-underwebdev {
+    font-size: 6px !important;
+  }
+  .thinstar {
+    height: 30px;
+  }
+  .bar-ancymon {
+    font-size: 45px;
+  }
+  #contact > p::after {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+  }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../src/css/loading.css" />
+    <link rel="stylesheet" href="../src/css/basic.css" />
+    <link rel="stylesheet" href="../src/css/animations.css" />
+    <link
+      rel="shortcut icon"
+      href="../src/img/logo/logo.png"
+      type="image/x-icon"
+    />
+    <title>ancymon > linktree</title>
+    <script src="./script.js" defer></script>
+    <script src="../src/js/functions/copy.js" defer></script>
+  </head>
+  <body>
+    <section class="loading-screen">
+      <div class="loading-animation load-animation-container"></div>
+    </section>
+    <a href=".." class="a">
+      <img src="../src/img/logo/logo.svg" alt="" />
+      <h1 class="title">ancymon</h1>
+    </a>
+    <section class="info">
+      <p>Frontend & Discord Bot Developer</p>
+      <p>HTML, CSS, JavaScript, Python</p>
+    </section>
+    <sections class="buttons">
+      <p
+        class="link"
+        onclick="special('#github',true,'')"
+        link="http://github.ancymon.lol"
+        id="github"
+      >
+        GitHub
+      </p>
+      <p
+        class="link"
+        onclick="special('#instagram',true,'')"
+        link="http://ig.ancymon.lol"
+        id="instagram"
+      >
+        Instagram
+      </p>
+      <p
+        class="link"
+        onclick="special('#discord',false,'ancymon#1234')"
+        id="discord"
+      >
+        Discord
+      </p>
+      <p
+        class="link"
+        onclick="special('#email',false,'ancymon@ancymon.lol')"
+        id="email"
+      >
+        Email
+      </p>
+    </sections>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+[
+  {
+    "en": {
+      "title": "Old Portfolio",
+      "description": "One of my first portofolios and sites."
+    },
+    "pl": {
+      "title": "Stare Portfolio",
+      "description": "Jedna z moich pierwszych stron."
+    },
+    "global": {
+      "image": "./img/projects",
+      "link": "old"
+    }
+  }
+]
