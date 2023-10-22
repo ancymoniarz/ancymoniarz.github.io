@@ -152,7 +152,11 @@ function viewProject() {
     })
     .then((data) => {
       let info = data[projectNum - 1];
-      let projectUrl = "./src/config/projects/" + info.file;
+      let projectUrl =
+        info.file.split(".").length > 1
+          ? "https://" + info.file
+          : "./src/config/projects/" + info.file;
+
       view.setAttribute("src", projectUrl);
       view.style.top = "0";
       setTimeout(() => {
