@@ -344,7 +344,13 @@ br {
   transform: translateY(20px) translateX(20px);
   transition: all 0.8s !important;
 }
-
 section {
   overflow: hidden;
+}
+.ping {
+  font-size: 13px;
+  margin-top: 4px;
+}
+ping {
+  color: #90ee90;
 }
