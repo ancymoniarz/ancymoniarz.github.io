@@ -354,3 +354,6 @@ section {
 ping {
   color: #90ee90;
 }
+::selection {
+  background-color: #00000000;
+}

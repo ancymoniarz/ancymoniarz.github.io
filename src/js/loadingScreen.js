@@ -13,8 +13,8 @@ setTimeout(() => {
     loadingBar(counter, len);
     if (counter === len) {
       let a = document.querySelector("#loading-screen");
-      //a.classList.add("loaded");
-      //setTimeout(() => (a.style.top = "100%"), 1000);
+      a.classList.add("loaded");
+      setTimeout(() => (a.style.top = "100%"), 1000);
     }
   }
 }, 1);

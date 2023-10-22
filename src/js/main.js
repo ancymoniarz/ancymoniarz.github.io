@@ -66,3 +66,22 @@ function scrollContact() {
 }
 
 setProject("recent");
+
+document.addEventListener(
+  "contextmenu",
+  function (e) {
+    e.preventDefault();
+  },
+  false
+);
+document.addEventListener("keydown", function (e) {
+  if (e.ctrlKey || e.shiftKey || e.key === "F12" || e.key === "F11") {
+    e.stopPropagation();
+    e.preventDefault();
+    try {
+      e.keyCode = 0;
+    } catch (e) {}
+    return false;
+  }
+  return true;
+});

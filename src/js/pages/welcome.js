@@ -65,7 +65,7 @@ function Welcome() {
             My determination and enthusiasm for
             <br />
             learning continuously drive me to <br />
-            develop my skillsin web design
+            develop my skills in web design
             <br />
             and programming.
             <br />
