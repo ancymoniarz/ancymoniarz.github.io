@@ -1,0 +1,14 @@
+{
+  "title": "Example",
+  "domain": "mc.example.com",
+  "document": { "title": "ExampleCraft" },
+  "links": {
+    "youtube": "https://youtube.com/@example",
+    "instagram": "https://instagram.com/example",
+    "facebook": "https://facebook.com/example",
+    "tiktok": "https://tiktok.com/@example",
+    "discord": "https://discord.gg/EXAMPLE",
+    "shop": "https://shop.example.com",
+    "enable": ["youtube", "instagram", "facebook", "tiktok", "discord", "shop"]
+  }
+}

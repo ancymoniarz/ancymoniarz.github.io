@@ -8,5 +8,15 @@
     ],
     "image": "project1.jpg",
     "file": "oldportfolio"
+  },
+  {
+    "title": "Minecraft 1",
+    "description": [
+      "A basic template for a minecraft server website.",
+      "In the future I will make more templates that are more advanced.",
+      "You can download it from my github."
+    ],
+    "image": "project2.jpg",
+    "file": "web-template-minecraft-basic"
   }
 ]
