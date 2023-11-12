@@ -1,4 +1,21 @@
 function reveal() {
+  if (pos("#welcome").bottom > window.scrollY) {
+    document.body.style.backgroundImage = `url("../../src/img/background.jpg")`;
+  } else if (
+    pos("#aboutme").bottom + document.querySelector("#welcome").offsetHeight >
+      window.scrollY &&
+    pos("#welcome").bottom < window.scrollY
+  ) {
+    document.body.style.backgroundImage = `url("../../src/img/background-2.jpg")`;
+  } else if (
+    pos("#projects").bottom +
+      document.querySelector("#welcome").offsetHeight * 2 >
+      window.scrollY &&
+    pos("#welcome").bottom < window.scrollY
+  ) {
+    document.body.style.backgroundImage = `url("../../src/img/background-3.jpg")`;
+  }
+
   let percent1;
   let percent2;
   if (windowHeight < windowWidth) {
@@ -40,6 +57,8 @@ function reveal() {
     }
   }
 }
+
+let scrollSection = false;
 window.addEventListener("scroll", reveal);
 function showScrollY() {
   if (window.scrollY === 0) {
@@ -48,5 +67,25 @@ function showScrollY() {
       e.style.transform = "translateY(0) translateX(0px)";
     });
   }
+  // if (scrollSection === false) {
+  //   if (
+  //     pos("#welcome").bottom - window.scrollY < window.innerHeight / 2 &&
+  //     window.scrollY < document.querySelector("#aboutme").offsetHeight
+  //   ) {
+  //     scrollToSection("#aboutme");
+  //     scrollSection = true;
+  //     setTimeout(() => {
+  //       scrollSection = false;
+  //     }, 1000);
+  //   }
+  // }
 }
 setTimeout(showScrollY, 1800);
+
+// function scrollToSection(sec) {
+//   document.querySelector(sec).scrollIntoView({ behavior: "smooth" });
+// }
+
+function pos(element) {
+  return document.querySelector(element).getBoundingClientRect();
+}

@@ -26,10 +26,17 @@ a {
 .font-barcode {
   font-family: "Libre Barcode 39", sans-serif;
 }
+
+body {
+  background-image: url("../../src/img/background.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
 #welcome {
   width: 100%;
   height: 100vh;
-  background-image: url("../../src/img/background.jpg");
+  /* background-image: url("../../src/img/background.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 0;
@@ -84,7 +91,7 @@ br {
   display: flex;
   width: 100%;
   height: 100vh;
-  background-image: url("../../src/img/background-2.jpg");
+  /* background-image: url("../../src/img/background-2.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -151,7 +158,7 @@ br {
   width: 100%;
   height: 100vh;
   padding-bottom: 84px;
-  background-image: url("../img/background-3.jpg");
+  /* background-image: url("../img/background-3.jpg"); */
   background-size: cover;
   display: flex;
   align-items: center;
@@ -356,4 +363,8 @@ ping {
 }
 ::selection {
   background-color: #00000000;
+}
+.imgloader {
+  width: 0;
+  height: 0;
 }
